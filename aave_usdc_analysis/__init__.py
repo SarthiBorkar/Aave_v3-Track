@@ -1,1 +1,0 @@
-# Aave USDC Analysis Package

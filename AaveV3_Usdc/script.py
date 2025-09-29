@@ -17,7 +17,7 @@ real_supplier_addresses = [
     '0x742d35Cc6634C0532925a3b8D23a8a38F2f0e3fb',  # Large DeFi user
     '0x267be1C1d684F78cb4F6a176C4911b741E4Ffdc0',  # Institutional
     '0x47ac0Fb4F2D84898e4D9E7b4DaB3C24507a6D503',  # High frequency
-    '0x8ba1f109551bD432803012645Haha3C39FDF732',  # Whale user
+    '0x8ba1f109551bD432803012645Haha3C39FDF732',   # Whale user
     '0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045',  # Vitalik
     '0xBE0eB53F46cd790Cd13851d5EFf43D12404d33E8',  # Binance
     '0x28C6c06298d514Db089934071355E5743bf21d60',  # Large holder
@@ -78,7 +78,7 @@ print(f"Average supply amount per transaction: ${avg_supply:,.2f}")
 print("="*70)
 
 # Save for submission
-df.to_csv('pwc_final_submission.csv', index=False)
+df.to_csv('stats.csv', index=False)
 
 
 print("\nANALYSIS SUMMARY:")
